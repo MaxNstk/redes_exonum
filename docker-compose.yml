@@ -3,6 +3,6 @@ services:
   exonum:
     build: 
       context: .
-      dockerfile: Dockerfile
+    command: command
     volumes:
       - './code'
